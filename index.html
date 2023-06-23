@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia 3</title>
+  </head>
+  <body>
+      <form action="" data-js="form" class="form">
+        <input type="text" class="input" data-js="inputCustomer" placeholder="Customer" name="customer">
+        <input type="text" class="input" data-js="inputLocation" placeholder="Location" name="location">
+        <input type="text" class="input" data-js="inputOrder" placeholder="Order Date" name="order">
+        <input type="text" class="input" data-js="inputStatus" placeholder="Status" name="status">
+        <input type="text" class="input" data-js="inputAmount" placeholder="Amount $..." name="amount">
+        <input type="text" class="input" data-js="inputImgUrl" placeholder="Image/Url" name="url">
+        <button class="btn" data-js="btn" type="submit">Apply</button>
+      </form>
+      <main class="table">
+        <section class="table_header"><h1>Customer's Orders</h1></section>
+        <section class="table_body">
+          <table>
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Customer</th>
+                <th>Location</th>
+                <th>Order</th>
+                <th>Status</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody data-js="table_body_element">
+              <tr>
+                <td> 1 </td>
+                <td><img src="./src/img/Omega.jpg" alt="">Omegalul</td>
+                <td> Seoul </td>
+                <td> 17 Dec, 2022 </td>
+                <td> Delivered </td>
+                <td> $128.9 </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
